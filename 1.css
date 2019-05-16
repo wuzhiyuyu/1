@@ -1,0 +1,28 @@
+h1{
+   font-size:60px;                                       /*字体大小*/
+   text-align:center;                                   /*标题居中*/
+   margin: 0;
+   padding: 20px 0;
+   color: #00539F;
+  text-shadow: 3px 3px 1px black;
+}
+p,li{
+   font-size:16px;
+   line-height:2;                                         /*行高*/
+   letter-spacing:1px;                                /*字间距*/
+}
+html{ 
+   background-color:#00539F;                     /*设置整个页面背景颜色*/
+}
+body{
+   width:600px;                                       /*元素的宽度*/
+   margin:0 auto;                                 /*为margin或padding等属性设置两个值是，第一个                                                                值代表元素的上方或下方，第二个值表示左边和右边                                                         （auto意思是水平方向上左右对称）*/
+  
+   background-color:#FF9500;
+   padding: 0 20px 20px 20px;              /*这次不设置上方的内边距，设置右边，下方，左边                                                             的内边距为20像素，值以上、右、下、左的顺序排列*/
+   border:5px solid black;                 /*为body设置5像素的黑色实线边框*/
+}
+img{
+   display:block;
+   margin:0 auto;
+}
